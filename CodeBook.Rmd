@@ -1,0 +1,21 @@
+---
+title: "CodeBook"
+author: "Andrea"
+---
+
+#Participants and Activities
+
+participants: ID of each person.
+activities: the activity names:
+ - "Walking dead Upstairs" -
+ - "Walking dead Downstairs" - 
+ - "Sitting doing nothing" - 
+ - "Standing like a stupid" - 
+ - "Laying like a lazyboy" -
+
+#And then there is a long list of means and Std deviations (66 data actually) by participants and activities about body acceleration mean , frequesncy , gravity std dev etc.
+
+if u are more curious then have a look to the 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+and have a look to the label.txt file too.
