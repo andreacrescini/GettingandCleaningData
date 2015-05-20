@@ -2,9 +2,7 @@
 title: "Readme"
 author: "Andrea"
 ---
-#I will copy paste the assignment:
-##The final output file of all mean by activities and participants is named: final_with_Arg.txt
-
+#The assignment is:
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
 
@@ -22,3 +20,13 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# The final output file list each mean by activities and participants. it is named: final_with_Arg.txt
+
+[1] Step 1: read and work out the file.
+[2] Step 2 : Merges the training and the test sets to create one data set called Merged
+[3] Step 3 : Extracts only the measurements on the mean and standard deviation for each measurement. Named Sub_Merged_MeanStd
+[4] Step 4: Uses descriptive activity names to name the activities in the data set.  the d.t Sub_Merged_MeanStd is updated
+[5] Step 5: Appropriately labels the data set with descriptive variable names. Sub_Merged_MeanStd is updated
+[6] Step 6: From the data set in step 4, creates a second, independent tidy data set with 
+the average of each variable for each activity and each subject. write.table into final_with_Arg.txt
